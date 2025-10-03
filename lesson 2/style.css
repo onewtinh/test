@@ -1,0 +1,29 @@
+#container{
+    width: 278px;
+    margin: 0 auto;
+}
+#ball{
+    position: relative;
+    bottom: 30px;
+    font-size: large;
+    font-weight: 520;
+}
+#gia{
+    color: red;
+    font-size: large;
+    position: relative;
+    bottom: 40px;
+}
+#sale{
+    border: red solid 1px;
+    width: 120px;
+    text-align: center;
+    color: red;
+    position: relative;
+    bottom: 50px;
+}
+#ban{
+    position: relative;
+    bottom: 60px;
+    color: gray;
+}

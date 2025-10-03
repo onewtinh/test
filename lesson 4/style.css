@@ -1,0 +1,9 @@
+*{
+align-items: end;   
+align-items: end;   
+justify-content: space-between;
+flex-direction: column-reverse;
+flex-wrap: wrap;    
+flex-direction:column;
+align-content:;
+}

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // const width = 10
+        // const length = 20
+        // const perimeter = (width + length) * 2
+
+        // Hàm: tập hợp của nhiều câu lệnh để thức hiện 1 công việc cụ thể,
+        // có thể tái sử dụng với những công việc giống nhau
+        // tham số(parameter): Giá trị đầu vào (input) cho hàm
+        // return: cho phép kết thúc hàm
+            // Và trả về giá trị
+            // Không trả về gì cả
+
+        // function isNumber(number){
+        //     if(Number.isNaN(number)){
+        //         console.log("số vừa nhập ko phải là số")
+        //         return false;
+        //     }
+
+        //     return true
+        // }
+
+        // function tinhChuViHcn(chieuRong, chieuDai){
+        //     // Validate chieuDai, chieuRong có phải là số ko
+        //     isNumber(chieuDai);
+        //     isNumber(chieuRong)
+
+        //     let perimeter = (chieuDai + chieuRong) * 2;
+
+        //     console.log(`Chu vi hcn có chiều dài ${chieuDai} và chiều rộng ${chieuRong} là: ${perimeter})`)
+        // }
+
+        // tinhChuViHcn(8, 10)
+
+
+        // // Arrow function (ES6, ES7...)
+        // const tinhChuViHcn = (chieuDai, chieuRong) => (chieuDai + chieuRong) * 2;
+
+        // console.log(tinhChuViHcn(5,4))
+
+        // // Anonymous function => callback
+
+        // (() => {
+        //     let tinhChuViHcn = (chieuDai, chieuRong) => (chieuDai + chieuRong) * 2;
+        //     console.log(tinhChuViHcn(5,4))
+        // })();
+        
+
+        // // Tính tổng của n số
+        // // ... => Rest Operator
+        //     const sum = (...numbers) => {
+        //         console.log(numbers);
+        //         let result = 0
+        //         for(let i = 0; i < numbers.length; i++) {
+        //             result += numbers[i];
+        //         }
+
+        //         return result
+        //     };
+
+        //     let sumResult = sum(1,2,3,4,5,6)
+
+        //     console.log(sumResult);
+
+
+        // let person = {
+        //     name: "Long",
+        //     age: 40,
+        //     register: () => {
+        //         console.log("Ăn!")
+        //     },
+        //     login:() => {
+
+        //     },
+        //     postMessage: () => {
+
+        //     }
+        // }
+
+
+
+// // 1 
+    
+//     function phuongTrinh (a,b,x) {
+//         let answer = a*x + b
+//         console.log(answer)
+//     }
+
+//     phuongTrinh(3,4,5)
+
+
+// // 2
+    
+//         function chuViHCN(width, length){
+//             let answer = (width + length) * 2
+//             console.log(answer)
+//         }
+
+//         chuViHCN(9,10)
+
+
+// // 3
+
+//         function dienTichHinhTron(r){
+//             dienTich = 3.14 * (r ** 2)
+//             console.log(dienTich.toFixed(2))
+//         }
+
+//         dienTichHinhTron(5)
+
+
+// // 4
+//         function nguyenTo(n){
+//             if (n%2==0 && n!=2 || n%3==0 && n!=3 || n%7==0 || n==1){
+//                 console.log("false")
+//             }else{
+//                 console.log("true")
+//             }
+//         }
+
+//         nguyenTo(743)
+
+
+// // 5
+//             const sum = (...numbers) => {
+//                 let result = 0
+//                 for(let i = 0; i < numbers.length; i++) {
+//                     result += numbers[i];
+//                 }
+
+//                 return result
+//             };
+
+//             let sumResult = sum(1,2,3,4,5)
+
+//             console.log(sumResult);
+
+
+
+// // 6
+//         function sum(a,b){
+//             let result = 0
+//             for(let i = a; i <= b; i++){
+//                 result += i
+//             }
+//             console.log(result)
+//         }
+
+//         sum(5,10)
+
+
+// // 7
+//         function palin(a){
+//             const length = Math.floor((a.length - 1) /2)
+//             const stringLength = a.length - 1;
+//             for (let i = 0; i <= length; i++){
+//                 if (a[i] === a[stringLength - i]){
+//                     if(i === length){
+//                         return "TRUE";
+//                     }
+//                     continue
+//                 }else{
+//                     return "FALSE";
+//                     break
+//                 }
+//             }
+            
+//         }
+
+//         console.log( palin("madam"))
+
+
+
+// // 8
+//         function even(a){
+//             for(let i = 0; i < a.length; i++){
+//                 if (a[i] % 2 == 0){
+//                     if (i == (a.length-1)){
+//                         return "TRUE"
+//                     }
+//                     continue
+//                 }else{
+//                     return "FALSE"
+//                     break
+//                 }
+//             }
+            
+//         }
+
+//         mang = [2,4,6,8]
+        
+//         console.log(even(mang))
+
+
+
+// 9
+        function sum(a){
+            let result = 0
+
+            for(let i in a){
+                if (a[i] > 0){
+                    result += a[i]
+                }
+            }
+
+            console.log(result)
+        }
+
+        mang = [3, -1, 4, -2, 5]
+
+        sum(mang)
+
+    </script>
+</body>
+</html>

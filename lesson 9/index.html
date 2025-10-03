@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // // CRUD
+        // // Create
+        // let person = {
+        //     name: 'Long',
+        //     age: 40,
+        //     job: 'Software Engineer'
+        // }
+
+        // // Read
+        // // Hãy lấy ra tên của đối tượng trên
+        // let something = 'age'
+        // console.log('lấy ra thông qua dấu .', person.name)
+        // console.log('lấy ra thông qua dấu []', person[something])
+
+        // for(let keyObj in person){
+        //     console.log('Đây là key name', keyObj)
+        //     console.log(`Giá trị của key ${keyObj} là ${person[keyObj]}`)
+        // }
+
+        // // Update: Cập nhật thông qua key muốn thay đổi
+        // person.job = 'Tiktoker'
+        // console.log(person)
+
+        // // Delete
+        // delete person.age
+
+        // console.log(person)
+
+
+
+//         let accounts = [
+//             {
+//                 username: 'admin',
+//                 password: '123456',
+//                 isLocked: false
+//             },
+//             {
+//                 username: 'manager',
+//                 password: 'abc123456',
+//                 isLocked: false
+//             },
+//             {
+//                 username: 'user',
+//                 password: '12345',
+//                 isLocked: true
+//             }
+//         ]
+// // VD: Nhập thông tin đăng nhập từ người dùng, 
+// // hãy kiểm tra và trả về thông báo đăng nhập 
+// // thành công hay thất bại. Nếu tài khoản bị khóa 
+// // thì thông báo cụ thể hơn
+//         let username = prompt('Nhập vào username của bạn');
+//         let password = prompt('Nhập vào password của bạn');
+
+//         // Ko có giá trị username
+//         if(!username){
+//             console.log('username không được để trống!');
+
+//             // kết thúc luôn
+//         }
+
+//         // ko có giá tị password
+//         if(!password){
+//             console.log('Password không được để trống!');
+
+//             // kết thúc luôn
+//         }
+
+
+//         for(let i = 0; i < accounts.length; i++){
+//             if(accounts[i].username === username){
+//                 if(accounts[i].password === password){
+//                     console.log('đăng nhập thành công')
+//                 }
+//                 if(accounts[i].isLocked === true){
+//                     console.log('Tài khoản đã bị khóa')
+//                 }
+//                 else{
+//                     console.log('Bạn đã nhập sai mật khẩu')
+//                 }
+//             }else{
+//                 console.log('Tài khoản không tồn tại')
+//             }
+//         }
+
+
+// // 1
+
+//         let student = {
+//             name:'John',
+//             age: 20,
+//         }
+
+//         student.major = 'Computer science'
+//         console.log(student)
+
+
+
+// // 2
+
+//          let person = {
+//             name: 'Alice',
+//             age: 25,
+//             job: 'Designer'
+//         }
+
+//         delete person.job
+
+
+
+// // 3
+    
+//             let car = {
+//                 brand: 'Toyota',
+//                 model: 'Camry',
+//                 year: 2020
+//             }
+
+//             console.log(Object.keys(car).length)
+
+
+
+// // 5
+//     let products = [
+//         {
+//             name: 'Phone',
+//             price: 500
+//         },
+//         {
+//             name: 'Camera',
+//             price: 300
+//         },
+//         {
+//             name: 'Tablet',
+//             price: 700
+//         }
+//     ]
+    
+//     console.log(products.find(product => product.name === 'Camera'))
+
+
+
+// // 6
+//         let products = [
+//             {   
+//                 name: "Phone",
+//                 price: 50 
+//             },
+//             { 
+//                 name: "Camera",
+//                 price: 300 
+//             }, 
+//             { 
+//                 name: "Tablet", 
+//                 price: 700 
+//             } 
+//         ]
+        
+//         console.log(products.find(product => product.name > 100))
+
+
+
+// // 7
+        
+//         let person = { 
+//             name: "Bob", 
+//             age: 25, 
+//             job: "Developer" 
+//         }
+
+//         person.age = 35
+
+
+
+// // 8
+
+//         let obj1 = { 
+//             a: 1, 
+//             b: 2 
+//         }
+
+//         let obj2 = { 
+//             c: 3, 
+//             d: 4 
+//         }
+
+//         let obj3 = {obj1, obj2}
+
+//         console.log(obj3)
+
+
+
+// 9
+
+        let animal = { 
+            type: "Dog", 
+            name: "Buddy", 
+            age: 3 
+        }
+
+        for (let i in animal){
+            console.log(i, animal[i])
+        }
+
+
+
+// // 10
+
+//         let car = { 
+//             brand: "BMW", 
+//             model: "X5" ,
+//         }
+
+//         for (let i in car){
+//             if(typeof car.color === 'defined'){
+//                 console.log('True');
+//             }else{
+//                 console.log('False');
+//                 break;
+//             }
+//         }
+
+
+
+// // 4
+
+//     let a = []
+
+//     let product = { 
+//         name: "Laptop", 
+//         price: 1000 
+//     }
+
+//     for (let i in product){
+//             a.push([i, product[i]])
+//         }
+
+//     console.log(a)
+
+
+
+
+
+
+    </script>
+</body>
+</html>
